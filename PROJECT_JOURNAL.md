@@ -15,11 +15,11 @@ since most of Pakistani awam doesn't even know what taxes are.
 
 **Challenges:**
 - Biggest challenge was turning the tax slab ratios/percentages into actual 
-  working formulas in code — translating "11% of amount exceeding 
+  working formulas in code translating "11% of amount exceeding 
   1,200,000" into `(income-1200000)/100*11` wasn't obvious at first
 - Copy-pasted bracket 3's formula into bracket 2's branch by mistake, 
   caught it by comparing each branch against the table again
-- Forgot the colon on `else:` — simple syntax miss
+- Forgot the colon on `else:` simple syntax miss
 
 **Design decisions:**
 - Used if/elif/else instead of a loop since I don't know loops yet — one 
