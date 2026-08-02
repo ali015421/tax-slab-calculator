@@ -1,6 +1,36 @@
 # Tax Slab Calculator
 
-Calculates income tax owed based on Pakistan's FBR tax slabs, given an annual salary.
+Calculates income tax owed based on Pakistan's FBR progressive tax slabs 
+(FY 2025-26), given an annual salary.
+
+## How it works
+Pakistan uses a progressive tax system — income is taxed in tiers, where 
+each portion of your salary is taxed at the rate for the bracket it falls 
+into, not your entire income at one flat rate. This calculator takes an 
+annual income as input and applies the correct FBR slab formulas to 
+compute total tax owed.
+
+## Tax Slabs (FY 2025-26)
+| Income Range (Rs.) | Rate |
+|---|---|
+| 0 – 600,000 | 0% |
+| 600,000 – 1,200,000 | 1% of amount exceeding 600,000 |
+| 1,200,000 – 2,200,000 | 6,000 + 11% of amount exceeding 1,200,000 |
+| 2,200,000 – 3,200,000 | 116,000 + 23% of amount exceeding 2,200,000 |
+| 3,200,000 – 4,100,000 | 346,000 + 30% of amount exceeding 3,200,000 |
+| 4,100,000+ | 616,000 + 35% of amount exceeding 4,100,000 |
+
+## Usage
+Run the script and enter your annual income when prompted:
+\`\`\`
+python3 main.py
+\`\`\`
 
 ## Status
-In progress — first project outside python-fundamentals.
+v1.0 — working command-line version. Planned improvements: graphical UI, 
+input validation, rounding output.
+
+## Built with
+Python (if/elif/else, operators, input/type conversion) — part of a 
+self-taught path from Python fundamentals toward Business/Data/Financial 
+Analysis roles.
