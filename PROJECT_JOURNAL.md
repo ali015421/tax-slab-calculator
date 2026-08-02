@@ -22,7 +22,7 @@ since most of Pakistani awam doesn't even know what taxes are.
 - Forgot the colon on `else:` simple syntax miss
 
 **Design decisions:**
-- Used if/elif/else instead of a loop since I don't know loops yet — one 
+- Used if/elif/else instead of a loop since I don't know loops yet so one 
   branch per bracket, using the shortcut cumulative formulas from the FBR 
   table instead of manually re-deriving bucket-by-bucket in code
 
