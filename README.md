@@ -26,11 +26,19 @@ Run the script and enter your annual income when prompted:
 python3 main.py
 \`\`\`
 
-## Status
-v1.0 — working command-line version. Planned improvements: graphical UI, 
-input validation, rounding output.
+## Features
+- Progressive tax calculation across all 6 FBR brackets
+- Input validation for negative income
+- Clean integer output (no stray decimals)
+
+## Version history
+- **v1.1** — Added negative income validation, cleaned up decimal output
+- **v1.0** — Initial working version with core tax bracket logic
+
+## Planned improvements
+- Graphical UI
+- Handle the 9% surcharge for income above Rs. 10,000,000
+- Non-numeric input handling (currently crashes on invalid text input)
 
 ## Built with
-Python (if/elif/else, operators, input/type conversion) — part of a 
-self-taught path from Python fundamentals toward Business/Data/Financial 
-Analysis roles.
+Python (if/elif/else, operators, input/type conversion) 
