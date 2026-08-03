@@ -31,3 +31,10 @@ since most of Pakistani awam doesn't even know what taxes are.
 - Round off the trailing .0 in the output
 - Handle the 9% surcharge for income above 10 million
 - Validate against negative or non-numeric input
+
+## Day 2 (or actual date)
+- Added input validation for negative income, cleaned up decimal 
+  output using int()
+- Tagged as v1.1
+- Noticed I keep losing track of which branch I'm on before committing 
+  — need to run `git branch` as a habit before every commit
